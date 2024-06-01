@@ -1,0 +1,79 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    margin: 20px 0;
+}
+
+.item_form{
+    width: 50%;
+}
+
+.form_control input{
+    padding: 0 8px;
+    height: 35px;
+}
+
+.form_control label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.item_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 20px 0;
+}
+
+
+.formbtn{
+    padding: 16px 32px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form1_control>input{
+    padding: 0 8px;
+    height: 35px;
+    width: 100%;   
+}
+
+.form1_control{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 5px;
+    width: 20%;
+
+
+}
+
+.form1_control>label{
+    position: absolute;
+    padding: 0 8px;
+    background-color: white;
+    top: -12px;
+    left: 10px;
+}
+
+

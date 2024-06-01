@@ -1,0 +1,42 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.item_form{
+    width: 50%;
+}
+
+.form_control input {
+    padding: 0 8px;
+    height: 35px;
+}
+
+.form_control label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.item_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 20px 0;
+}
+
+
+.formbtn{
+    padding: 16px 32px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    font-family: 'Poppins';
+
+}
